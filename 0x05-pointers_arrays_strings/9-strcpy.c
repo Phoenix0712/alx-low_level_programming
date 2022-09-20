@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,7 +8,8 @@
  *     
  *Return: A pointer to the destination string @dest.
  */
-char *strcpy(char *dest, const char *src)
+int main();
+char *_strcpy(char *dest, const char *src)
 {
 int len = 0;
 while (*(src + len) != '\0')
