@@ -8,8 +8,8 @@
  *     
  *Return: A pointer to the destination string @dest.
  */
-int main();
-char *_strcpy(char *dest, const char *src)
+int main(void);
+char *_strcpy(char *dest, const char *src);
 {
 int len = 0;
 while (*(src + len) != '\0')
