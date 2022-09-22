@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 
 /**
  * strcat - Concatenates the string pointed to by @src, including the terminating
@@ -8,24 +8,18 @@
  * @src: The source string to be appended to @dest.
  *      
  * Return: A pointer to the destination string @dest.
- */
+*/
 
-
-int main()
-{
 char *_strcat(char *dest, char *src);
-	
-int destLen, srcLen, i;
-char dest[] = " ";
-char src[] = " ";
+ {
+ int i = 0, dest_len = 0;
 
-destLen = strlen(destLen);
-srcLen = strlen(srcLen);
-			
-for(i=0; i<=srcLen; i++)
-dest[destLen+i]=src[i];
+while (dest[i++])
+dest_len++;
 
-return dest;
+for (i = 0; src[i]; i++)
+dest[dest_len++] = src[i];
 
+return (dest);
 }
 	
