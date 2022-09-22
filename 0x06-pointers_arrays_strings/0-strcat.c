@@ -13,13 +13,19 @@
 
 int main()
 {
-	char *_strcat(char *dest, char *src);
- char dest[100], src[100];
- strcpy(dest, " ");
- strcpy(src, " ");
- strcat(dest, src);
- printf("%s", dest);
+char *_strcat(char *dest, char *src);
+	
+int destLen, srcLen, i;
+char dest[] = " ";
+char src[] = " ";
 
- return 0;
+destLen = strlen(destLen);
+srcLen = strlen(srcLen);
+			
+for(i=0; i<=srcLen; i++)
+dest[destLen+i]=src[i];
+
+return dest;
 
 }
+	
